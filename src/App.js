@@ -88,7 +88,14 @@ function App() {
           </form>
         </div>
       )}
-      
+       <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <a
+          style={{ color: '#eee' }}
+          href='https://github.com/Sr-Preet/Vaccine-Center-Checker'
+        >
+          Coding By Sarpreet
+        </a>
+      </div>
     </>
   )
 }
