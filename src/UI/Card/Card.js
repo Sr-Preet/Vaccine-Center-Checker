@@ -33,8 +33,9 @@ const Card = ({ data, reset }) => {
               <div className='tags'>
                 {slots.map((slot) => {
                   return (
-                    <h1 href='#' key={slot}>
-                      {slot}
+                    <h1 href='#' key={slot}>                    
+                      Time: {slot.time} &nbsp; &nbsp;
+                      Seats: {slot.seats}
                     </h1>
                   )
                 })}
